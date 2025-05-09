@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 # Load today’s merged data
 today_str = date.today().strftime("%Y-%m-%d")
-file_path = f"data/dashboard_merged_{today_str}.csv"
+file_path = f"dashboard_merged_{today_str}.csv"
 
 try:
     df = pd.read_csv(file_path)
